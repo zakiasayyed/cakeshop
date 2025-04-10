@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-size: 1em;
+	line-height: 1.3em;
+}
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+#container{
+    width: 1200px;
+    height: 830px;
+    border-radius: 20px;
+    margin: auto;
+}
+/* classes */
+.burntred {
+	color: #E94D40;
+}
+.navyblue {
+	color: #0C243C;
+}
+.specialcakesfont {
+	font-family: Arial, sans-serif;
+}
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
+}
+.clearboth {
+    clear: both;
+}
+nav{
+    width: 1200px;
+    height: 40px;
+    font-size: 16px;
+    text-align: right;
+}
+nav ul {
+	margin-top: -45px;
+	margin-right: 5px;
+	list-style: none;
+	
+}
+nav ul li {
+	display: inline-block;
+    text-decoration: none;
+    
+}
+nav ul li a {
+	text-decoration: none;
+	color: #4d110c;
+	display: inline-block;  /* Ensures links respect text alignment */
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.picture{
+    width: 920px;
+    height: 410px;
+    margin: auto;
+}
+footer{
+	margin-top: 50px;
+    width: 1200px;
+    height: 50px;
+    background-color:#0C243C;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    color:white;
+}
+.abc{
+    margin-left: 100px;
+}
+
+table{
+    width: 620px;
+}
+tr:nth-child(1){
+    background-color: #0C243C;
+    color: #fff;
+}
+tr:nth-child(3){
+    background-color: #bbd6f1;
+}
+h1{
+    margin-top:30px;
+    margin-bottom:40px;
+}
+
+h2,h3{
+    margin-bottom: 20px;
+}
